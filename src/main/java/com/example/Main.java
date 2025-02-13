@@ -1,7 +1,10 @@
 package com.example;
 
+import com.example.palindrome.PalindromeNumber;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        PalindromeNumber p = new PalindromeNumber();
+        p.isPalindrome();
     }
 }
