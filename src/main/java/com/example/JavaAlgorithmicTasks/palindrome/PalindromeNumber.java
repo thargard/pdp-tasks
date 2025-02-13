@@ -1,4 +1,4 @@
-package com.example.palindrome;
+package com.example.JavaAlgorithmicTasks.palindrome;
 
 import java.util.Scanner;
 

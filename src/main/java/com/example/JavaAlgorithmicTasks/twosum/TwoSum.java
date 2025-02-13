@@ -1,4 +1,4 @@
-package com.example.twosum;
+package com.example.JavaAlgorithmicTasks.twosum;
 
 import java.util.ArrayList;
 import java.util.Scanner;
