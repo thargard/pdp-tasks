@@ -1,7 +1,6 @@
 package com.example;
 
-import com.example.JavaAlgorithmicTasks.palindrome.PalindromeNumber;
-import com.example.JavaAlgorithmicTasks.twosum.TwoSum;
+import com.example.JavaAlgorithmicTasks.third.SingleNumber;
 import com.example.codewars.*;
 
 public class Main {
@@ -17,6 +16,9 @@ public class Main {
         XO.XO("xxooo");*/
         //System.out.println(InOrderPlease.order("is2 Thi1s T4est 3a"));
         //System.out.println(new Multiples3or5().solution(16));
-        System.out.println(new CountingDuplicates().duplicateCount("Indivisibilities"));
+        //System.out.println(new CountingDuplicates().duplicateCount("Indivisibilities"));
+
+        SingleNumber sn = new SingleNumber(new int[]{5, 5, 6, 6, 7, 8, 7});
+        sn.singleNumber();
     }
 }
