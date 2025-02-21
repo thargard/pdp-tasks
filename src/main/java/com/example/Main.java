@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.JavaAlgorithmicTasks.fifth.SearchInsertPosition;
 import com.example.JavaAlgorithmicTasks.fourth.ContainsDuplicates;
+import com.example.JavaAlgorithmicTasks.sixth.MaximumSubarray;
 import com.example.JavaAlgorithmicTasks.third.SingleNumber;
 import com.example.codewars.*;
 
@@ -20,13 +21,15 @@ public class Main {
         //System.out.println(new Multiples3or5().solution(16));
         //System.out.println(new CountingDuplicates().duplicateCount("Indivisibilities"));
 
-        SingleNumber sn = new SingleNumber(new int[]{5, 5, 6, 6, 7, 8, 7});
+        /*SingleNumber sn = new SingleNumber(new int[]{5, 5, 6, 6, 7, 8, 7});
         sn.singleNumber();
 
         ContainsDuplicates cd = new ContainsDuplicates(new int[]{5, 5, 6, 6, 7, 8, 7});
         System.out.println(cd.containsDuplicates());
 
         SearchInsertPosition sip = new SearchInsertPosition(new int[]{1, 2, 3, 6, 7, 8}, 7);
-        System.out.println(sip.searchInsertPosition());
+        System.out.println(sip.searchInsertPosition());*/
+
+        System.out.println(MaximumSubarray.maxSubArray(new int[]{5, 4, -1, 7, 8}));
     }
 }
