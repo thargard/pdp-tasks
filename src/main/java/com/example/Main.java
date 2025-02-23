@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.JavaAlgorithmicTasks.eights.ValidParentheses;
 import com.example.JavaAlgorithmicTasks.fifth.SearchInsertPosition;
 import com.example.JavaAlgorithmicTasks.fourth.ContainsDuplicates;
 import com.example.JavaAlgorithmicTasks.seventh.Subsets;
@@ -33,6 +34,8 @@ public class Main {
 
         //System.out.println(MaximumSubarray.maxSubArray(new int[]{5, 4, -1, 7, 8}));
 
-        System.out.println(Subsets.subsets(new int[]{4, 2, 3, 6, 8, 1}));
+        //System.out.println(Subsets.subsets(new int[]{4, 2, 3}));
+
+        System.out.println(ValidParentheses.isValid("{}[]()"));
     }
 }
