@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.JavaAlgorithmicTasks.fifth.SearchInsertPosition;
 import com.example.JavaAlgorithmicTasks.fourth.ContainsDuplicates;
+import com.example.JavaAlgorithmicTasks.seventh.Subsets;
 import com.example.JavaAlgorithmicTasks.sixth.MaximumSubarray;
 import com.example.JavaAlgorithmicTasks.third.SingleNumber;
 import com.example.codewars.*;
@@ -30,6 +31,8 @@ public class Main {
         SearchInsertPosition sip = new SearchInsertPosition(new int[]{1, 2, 3, 6, 7, 8}, 7);
         System.out.println(sip.searchInsertPosition());*/
 
-        System.out.println(MaximumSubarray.maxSubArray(new int[]{5, 4, -1, 7, 8}));
+        //System.out.println(MaximumSubarray.maxSubArray(new int[]{5, 4, -1, 7, 8}));
+
+        System.out.println(Subsets.subsets(new int[]{4, 2, 3, 6, 8, 1}));
     }
 }
