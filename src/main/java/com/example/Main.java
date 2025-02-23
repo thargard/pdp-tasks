@@ -1,12 +1,7 @@
 package com.example;
 
-import com.example.JavaAlgorithmicTasks.eights.ValidParentheses;
-import com.example.JavaAlgorithmicTasks.fifth.SearchInsertPosition;
-import com.example.JavaAlgorithmicTasks.fourth.ContainsDuplicates;
-import com.example.JavaAlgorithmicTasks.seventh.Subsets;
-import com.example.JavaAlgorithmicTasks.sixth.MaximumSubarray;
-import com.example.JavaAlgorithmicTasks.third.SingleNumber;
-import com.example.codewars.*;
+import com.example.JavaAlgorithmicTasks.eighth.ValidParentheses;
+import com.example.JavaAlgorithmicTasks.nineth.LongestValidParentheses;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,5 +32,7 @@ public class Main {
         //System.out.println(Subsets.subsets(new int[]{4, 2, 3}));
 
         System.out.println(ValidParentheses.isValid("{}[]()"));
+
+        System.out.println(LongestValidParentheses.longestValidParentheses("(()"));
     }
 }

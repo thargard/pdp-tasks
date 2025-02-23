@@ -1,4 +1,4 @@
-package com.example.JavaAlgorithmicTasks.eights;
+package com.example.JavaAlgorithmicTasks.eighth;
 
 public class ValidParentheses {
     public static boolean isValid(String s) {
